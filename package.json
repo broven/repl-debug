@@ -1,6 +1,6 @@
 {
   "name": "repl-debug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interrupt puppeteer for debug.",
   "main": "index.js",
   "scripts": {
