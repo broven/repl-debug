@@ -18,7 +18,11 @@ async function debug (context) {
     rl.prompt()
     rl.on('line', (line) => {
       vm.runInContext(`(async () => {
-        ${line}
+        try {
+          ${line}
+        } catch(e) {
+          console.error(e)
+        }
       })()`, context).then(() => {
         rl.prompt()
       }).catch(e => {
