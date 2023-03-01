@@ -1,6 +1,6 @@
 {
-  "name": "puppeteer-debug",
-  "version": "2.1.1",
+  "name": "repl-debug",
+  "version": "1.0.0",
   "description": "Interrupt puppeteer for debug.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nswbmw/puppeteer-debug.git"
+    "url": "git+https://github.com/broven/repl-debug.git"
   },
   "keywords": [
     "puppeteer",
@@ -16,12 +16,12 @@
     "interrupt",
     "repl"
   ],
-  "author": "nswbmw",
+  "author": "broven",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nswbmw/puppeteer-debug/issues"
+    "url": "https://github.com/broven/repl-debug/issues"
   },
-  "homepage": "https://github.com/nswbmw/puppeteer-debug#README",
+  "homepage": "https://github.com/broven/repl-debug#README",
   "dependencies": {},
   "devDependencies": {
     "playwright": "*",

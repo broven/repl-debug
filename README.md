@@ -1,4 +1,4 @@
-## puppeteer-debug
+## repl-debug
 
 > Interrupt puppeteer/playwright for debug.
 
@@ -8,7 +8,7 @@
 
 ```js
 const puppeteer = require('puppeteer')
-const debug = require('puppeteer-debug')
+const debug = require('repl-debug')
 
 ;(async () => {
   const browser = await puppeteer.launch({
@@ -24,7 +24,7 @@ const debug = require('puppeteer-debug')
 
 ```js
 const playwright = require('playwright')
-const debug = require('puppeteer-debug')
+const debug = require('repl-debug')
 
 ;(async () => {
   const browser = await playwright.chromium.launch({
