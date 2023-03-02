@@ -19,7 +19,9 @@ async function debug (context) {
     rl.on('line', (line) => {
       vm.runInContext(`(async () => {
         try {
-          ${line}
+          console.log('running....')
+          console.log(${line})
+          console.log('done!')
         } catch(e) {
           console.error(e)
         }
