@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Interrupt puppeteer for debug.",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "node test"
   },
